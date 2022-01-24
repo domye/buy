@@ -342,9 +342,9 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '你还是不够爱面包';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 99) return '还是⑧够爱面包';
+    if (score <= 149) return '面包我爱你！';
+    if (score <= 199) return '面包狂粉！';
     return '人？';
 }
 
